@@ -1,0 +1,10 @@
+# modules
+node_modules
+bun.lock
+
+# output
+dist
+wasm_loader.wasm
+
+# mac cache
+.DS_Store
