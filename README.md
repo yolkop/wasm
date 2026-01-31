@@ -10,10 +10,9 @@
 
 <br>
 
-<h3 align='center'>usage</h1>
+<h3 align='center'>usage</h3>
 
-> [!NOTE]
-> While Node compatibility should exist, it is not guaranteed.
+note: while Node should work, compatibility is not guaranteed
 
 ```js
 import WASM from 'yolkwasm';
