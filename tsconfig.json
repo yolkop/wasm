@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ESNext"
+        ],
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "rootDir": "src",
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "strictPropertyInitialization": false,
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "src/index.ts"
+    ],
+    "exclude": [
+        "node_modules/**"
+    ]
+}
