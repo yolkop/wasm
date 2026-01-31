@@ -1,6 +1,7 @@
 name: publish yolkwasm
 
 on:
+  push:
   workflow_dispatch:
 
 permissions:
