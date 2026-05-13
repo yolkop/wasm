@@ -5,7 +5,7 @@
         ],
         "target": "esnext",
         "module": "esnext",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "outDir": "dist",
         "rootDir": "src",
         "declaration": true,
@@ -14,6 +14,7 @@
         "esModuleInterop": true,
         "strictPropertyInitialization": false,
         "forceConsistentCasingInFileNames": true,
+        "types": ["bun"],
         "typeRoots": [
             "./node_modules/@types"
         ]

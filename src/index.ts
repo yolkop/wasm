@@ -1,8 +1,6 @@
 // https://github.com/zastlx/shell-wasm-node
 // thanks zastix! yolkbot wouldn't have stayed alive without your help <3
 
-import { wasmBytes } from './bytes';
-
 const normalizeYaw = (yaw: number) => ((yaw % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
 
 export interface GetYawPitch {
@@ -48,7 +46,8 @@ export class WASM {
     processListeners: Array<(result: string) => void> = [];
 
     async init(): Promise<void> {
-        const wasmInstantiated = await WebAssembly.instantiate(wasmBytes, this.getImports());
+        const wasmInstantiated = await WebAssembly.instantiate(await fetch('https://x.yolkbot.xyz/data/xtra/wasm_loader.wasm'), this.getImports());
+        // @ts-expect-error
         this.wasm = wasmInstantiated.instance.exports as unknown as WASMExports;
 
         this.wasm.start();
