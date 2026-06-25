@@ -1,7 +1,7 @@
 {
     "name": "yolkwasm",
-    "description": "yolkbot builds your dream shell shockers bot.",
-    "version": "1.1.0",
+    "description": "load the shell shockers webassembly library in your bun project!",
+    "version": "1.1.1",
     "keywords": [
         "yolkbot",
         "yolkwasm",
@@ -9,10 +9,9 @@
         "webassembly"
     ],
     "bugs": {
-        "url": "https://github.com/yolkop/wasm/issues",
-        "email": "hello@villainsrule.xyz"
+        "url": "https://github.com/yolkop/wasm/issues"
     },
-    "author": "1ust",
+    "author": "yolkbot",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/yolkop/wasm.git"
