@@ -21,7 +21,7 @@ jobs:
         run: bun install
 
       - name: build
-        run: bun run cli/build.ts
+        run: bunx --bun tsc
 
       - name: install npm
         run: bun install -g npm@latest

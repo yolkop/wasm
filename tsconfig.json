@@ -9,7 +9,6 @@
         "outDir": "dist",
         "rootDir": "src",
         "declaration": true,
-        "emitDeclarationOnly": true,
         "strict": true,
         "esModuleInterop": true,
         "strictPropertyInitialization": false,

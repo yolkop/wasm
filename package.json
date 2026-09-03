@@ -1,13 +1,16 @@
 {
     "name": "yolkwasm",
     "description": "load the shell shockers webassembly library in your bun project!",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "keywords": [
         "yolkbot",
         "yolkwasm",
         "shell shockers",
         "webassembly"
     ],
+    "scripts": {
+        "build": "bunx --bun tsc"
+    },
     "bugs": {
         "url": "https://github.com/yolkop/wasm/issues"
     },
@@ -27,8 +30,7 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "devDependencies": {
-        "@types/bun": "^1.3.8",
-        "dts-bundle-generator": "^9.5.1",
-        "typescript": "^5.9.3"
+        "@types/bun": "^1.4.0",
+        "typescript": "^6.0.3"
     }
 }
